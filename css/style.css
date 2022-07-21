@@ -1,0 +1,76 @@
+nav{
+    min-height: 60px;
+}
+.navbar-brand{
+    font-size: 30px;
+    font-family: cursive;
+    font-weight: bold;
+}
+.nav-item{
+    padding-right: 30px;
+}
+.nav-link{
+    font-size: 25px;
+}
+.nav-link:hover{
+    text-shadow: 2px 2px 5px orange;
+}
+/* ************************************************************************* */
+.home{
+    min-height: 600px;
+    background:url('../images/bg.jpg') no-repeat;
+    background-size: 100% 100%;
+    opacity: .8;
+}
+.home template p{
+    width: 500px;
+    min-height: 500px;
+    padding-top: 20%;
+}
+h1{
+    color:goldenrod;
+    font-family: cursive;
+}
+.home button{
+    padding: 20px 30px;
+    border-radius: 20%;
+    background-color: #cc8e1c;
+    /* top:200px !important; */
+}
+.home button:hover{
+    background-color: green;
+    animation:ripple;
+    animation-duration: 3s;
+}
+/* ************************************************************************** */
+.about{
+    min-height: 550px;
+}
+/* *************************************************************************** */
+.cards{
+    min-height: 500px;
+    background: url('../images/card-bg.jpg') no-repeat;
+    background-size: 100% 100%;
+    opacity: .7;
+
+}
+
+/* *********************************************************************** */
+footer{
+    min-height: 100px;
+}
+footer p{
+    margin-top: 25px;
+}
+footer i{
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+    font-size: 30px;
+    color:#fff;
+}
+footer i:hover{
+    color: #c0ee8b;
+    animation: pulse;
+    animation-duration: 3s;
+}

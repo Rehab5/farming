@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farming</title>
+    <link rel="icon" href="images/logo.jpg">
+    <!--Styling  -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/all.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+    <main class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light shadow">
+            <div class="container">
+                <img src="images/logo.jpg" width="50" height="50" class="rounded-circle">
+                <a class="navbar-brand text-success mx-3" href="#">Agriculture</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-3">
+                        <li class="nav-item mx-2">
+                            <a class="nav-link text-success" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-success" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-success" href="#">Contact Us</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Home section -->
+        <section class="home mb-5">
+            <template class="bg-dark p-5">
+                <h1 class="text-center">Green Fields</h1>
+                <p class="text-justify text-muted">Agriculture is the practice of 
+                    cultivating plants and livestock. Agriculture was the key 
+                    development in the rise of sedentary human civilization, 
+                    whereby farming of domesticated species created food surpluses 
+                    that enabled people to live in cities. The history of agriculture 
+                    began thousands of years ago. After gathering wild grains beginning 
+                    at least 105,000 years ago, nascent farmers began to plant them around 
+                    11,500 years ago. Pigs, sheep, and cattle were domesticated over 10,000 years ago.
+                    Plants were independently cultivated in at least 11 regions of the world. 
+                    Industrial agriculture based on large-scale monoculture in the twentieth 
+                    century came to dominate agricultural output, though about 2 billion 
+                    people still depended on subsistence agriculture.</p>
+            </template>
+            <button class="m-5 press">Know More Details!</button>
+        </section>
+
+        <!-- About -->
+        <section class="about m-auto mb-5">
+            <h1 class="text-center">Types of agricultural crops</h1>
+            <p class="text-muted text-justify p-5">
+                A crop is a plant that can be grown and harvested for food or profit.
+                By use, crops fall into six categories: food crops, feed crops, fiber 
+                crops, oil crops, ornamental crops, and industrial crops.
+                Food crops, such as fruits, vegetables, and grains, 
+                are harvested to feed the more than 7 billion people on 
+                Earth. Climate, accessibility, trade, and culture are just 
+                some of the geographic factors that influence the popularity 
+                of a food crop in a given region. Grains, such as corn, wheat, 
+                and rice, are the world’s most popular food crops. In fact, 
+                these crops are often the basis for food staples.
+            </p>
+            <marquee behaviour="slide" scrollamount="10">
+                <abbr title="Wheat">
+                    <img src="images/wheat.jpg" width="150" height="150" class="rounded-circle">
+                </abbr>
+                <abbr title="Rice">
+                    <img src="images/rice.jpg" width="150" height="150" class="rounded-circle">
+                </abbr>
+                <abbr title="Corn">
+                    <img src="images/corn.jpg" width="150" height="150" class="rounded-circle">
+                </abbr>
+                <abbr title="Cotton">
+                    <img src="images/cotton.jpg" width="150" height="150" class="rounded-circle">
+                </abbr>
+                <abbr title="Soybean">
+                    <img src="images/soybean.jpg" width="150" height="150" class="rounded-circle">
+                </abbr>
+                <abbr title="Potatoes">
+                    <img src="images/potatoes.jpg" width="150" height="150" class="rounded-circle">
+                </abbr>
+            </marquee>
+        </section>
+
+        <!-- Cards -->
+        <section class="container cards bg-dark mb-5">
+            <div>
+                <div class="row row-cols-1 row-cols-md-3 g-3">
+                    <div class="col-4">
+                        <div class="card">
+                            <img src="images/wheat.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h2 class="card-title">Rabi</h2>
+                                <p class="card-text">Sown: October-December
+                                    Harvested: April-June</p>
+                                    <br>
+                                <p>Wheat, barley, peas, gram, mustard etc.</p>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="col-4">
+                        <div class="card">
+                            <img src="images/cotton.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h2 class="card-title">Kharif</h2>
+                                <p class="card-text">Sown: June-July
+                                    Harvested: September-October</p>
+                                <p>Rice, maize, jowar, bajra, tur, moong, urad, cotton, jute, groundnut, soybean etc.</p>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="col-4">
+                        <div class="card">
+                            <img src="images/potatoes.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h2 class="card-title">Zaid</h2>
+                                <p class="card-text">Sown and harvested: March-July
+                                    (between Rabi and Kharif)</p>
+                                <p>Seasonal fruits, vegetables, fodder crops etc.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- form -->
+        <section class="mt-5 " id="myForm">
+            <div class="row">
+                <div class="col-md-6">
+                    <form>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">UserName</label>
+                            <input type="text" class="form-control" id="name">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email Address</label>
+                            <input type="email" class="form-control"id="email"  aria-describedby="emailHelp">
+                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                        </div>
+                       
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Phone Number</label>
+                            <input type="number" class="form-control" id="phone">
+                        </div>
+                        
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="password"> 
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary" onclick="addUser(event)">Add User</button>
+                    </form>
+                </div>
+                <div class="col-md-6">
+                    <table class="table table-striped table-hover table-bordered shadow">
+                        <thead class="table-dark">
+                            <tr>
+                                <th scope="col">Username</th>
+                                <th scope="col">Email</th>
+                                <th scope="col">Phone</th>
+                                <th scope="col">Password</th>
+                            </tr>
+                        </thead>
+                        <tbody id="tbody">
+                            <tr>
+                                <th scope="row">1</th>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">3</th>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <!-- Arrow -->
+        <div class="arrow-up float-end">
+            <i class="fas fa-arrow-circle-up"></i>
+        </div>
+
+        <!-- footer -->
+        <footer class="bg-dark mt-5">
+            <div class="row">
+                <div class="col-6">
+                    <p class="text-center text-white pt-3">CopyRights &copy; Eng: Rehab El-Said Kosbar</p>
+                </div>
+                <div class="col-6">
+                    <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-google-plus-g"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+    <!-- Javascript -->
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
